@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# Adding config.py file.
+config.py
+
+# Adding additional python practice files
+WeatherPy_PythonData.ipynb
+
 # Distribution / packaging
 .Python
 build/
