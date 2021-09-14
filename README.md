@@ -11,12 +11,24 @@ Software: Python 3.7.3, Jupyter Notebook 6.0.0, Open Weather API, Google Places 
 ## Results
 
 To find the best time of year for people to plan vacations and perform searches for ideal hotel anywhere in the world, we follow below steps:
-    1. Generate a set of 2,000 random latitudes and longitudes, retrieve the nearest city, and perform an API call with the OpenWeatherMap.
-    2. Add the City, Country, Latitude, Longitude, Weather Metrics to a data frame to continue with the analysis.
-    3. Using Google Places API, search for the hotel near the city in our data frame and add it to the DataFrame.
-    4. Create a marker with hotel, city and weather metrics to show on a map.
-    5. Using the Google Directions API, we create a travel itinerary that shows the route between four cities chosen from the customer’s possible travel destinations.
-    6. Add the markers on the citiesa and display on the map.
+
+1. Generate a set of 2,000 random latitudes and longitudes, retrieve the nearest city, and perform an API call with the OpenWeatherMap.
+    
+2. Add the City, Country, Latitude, Longitude, Weather Metrics to a data frame to continue with the analysis.
+    
+3. Using Google Places API, search for the hotel near the city in our data frame and add it to the DataFrame.
+    
+4. Create a marker with hotel, city and weather metrics to show on a map.
+
+    <img src = "https://github.com/Nikhila999/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png" width="500" height="200">
+    
+5. Using the Google Directions API, we create a travel itinerary that shows the route between four cities chosen from the customer’s possible travel destinations.
+    
+6. Add the markers on the cities and display on the map.
+
+    <img src = "https://github.com/Nikhila999/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png" width="500" height="200">
+
+
 
 ## Summary
 
