@@ -12,7 +12,7 @@ Software: Python 3.7.3, Jupyter Notebook 6.0.0, Open Weather API, Google Places 
 
 To find the best time of year for people to plan vacations and perform searches for ideal hotel anywhere in the world, we follow below steps:
 
-1. Generated a set of 2,000 random latitudes and longitudes, retrieved the nearest city, and performed an API call with the OpenWeatherMap.
+1. Generated set of 2,000 random latitudes and longitudes, retrieved the nearest city, and performed an API call with the OpenWeatherMap.
     
 2. Added the City, Country, Latitude, Longitude, Weather Metrics to a data frame to continue with the analysis.
     
